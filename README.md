@@ -1,18 +1,36 @@
-## Getting Started
+🧮 Basic Calculator (Single Operation)
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A simple Java console-based calculator that performs a single arithmetic operation between two numbers.
+It helps beginners understand how user input, conditional statements, and operators work together in Java.
 
-## Folder Structure
+🚀 Features
 
-The workspace contains two folders by default, where:
+Asks the user to enter two numbers
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Prompts for a desired operation: +, -, *, or /
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Performs the selected calculation
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Displays the result clearly in the console
 
-## Dependency Management
+Beginner-friendly and concise Java logic
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+💻 How It Works
+
+The user enters two numeric values.
+
+The program asks for an operation symbol (+, -, *, /).
+
+It checks which operation was chosen.
+
+The calculator performs the computation and prints the result.
+
+🧰 Technologies Used
+
+Java (JDK)
+
+Scanner class for user input
+
+If-Else / Switch statements for decision making
+
+Arithmetic operators for calculations
